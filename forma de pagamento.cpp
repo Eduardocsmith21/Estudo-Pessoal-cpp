@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip> // para definir quantas casas decimais vai usar, precisa incluir iomanip
+#include <iomanip> 
 using namespace std;
 int main () {
 	float valor, total, parcela;
@@ -8,13 +8,13 @@ int main () {
 	int opcao;
 	cout << "Forma de pagamento"<< "\n\n";
 	cout << "[1] A vista" << "\n\n";
-	cout << "[2] 2X no cartão" << "\n\n";
-	cout << "[3] 3X no cartão" << "\n\n";
-	cout << "[4] 4X no cartão" << "\n\n";
-	cout << "[5] Mais de 4X no cartão" << "\n\n";
+	cout << "[2] 2X no cartÃ£o" << "\n\n";
+	cout << "[3] 3X no cartÃ£o" << "\n\n";
+	cout << "[4] 4X no cartÃ£o" << "\n\n";
+	cout << "[5] Mais de 4X no cartÃ£o" << "\n\n";
 	cin >> opcao;
 	cout << "\n";
-	//cout << fixed << setprecision ( 2 );
+
 	if (opcao == 1) {
 		total = valor - (valor * 10 / 100);
 		cout << "Sua compra ficara " << total << endl;
@@ -41,7 +41,7 @@ int main () {
 		cout << "\n";
 		total = valor + (valor * 60 / 100);
 		parcela = total / vezes;
-		cout << "Sua compra ficara " << total << " com parcelas de R$" << parcela <<" em " << vezes << "X" << " no cartão" << endl;
+		cout << "Sua compra ficara " << total << " com parcelas de R$" << parcela <<" em " << vezes << "X" << " no cartÃ£o" << endl;
 	}
 	return 0;
 }
