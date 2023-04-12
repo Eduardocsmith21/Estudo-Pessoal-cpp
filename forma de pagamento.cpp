@@ -13,7 +13,7 @@ int main () {
 	cout << "[4] 4X no cartão" << "\n\n";
 	cout << "[5] Mais de 4X no cartão" << "\n\n";
 	cin >> opcao;
-	cout << "\n";
+	cout << " \n ";
 
 	if (opcao == 1) {
 		total = valor - (valor * 10 / 100);
